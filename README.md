@@ -1,0 +1,1 @@
+Copy from [Varlet-vue2](https://github.com/varletjs/varlet-vue2)
