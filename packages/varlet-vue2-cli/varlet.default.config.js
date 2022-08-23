@@ -31,7 +31,6 @@ module.exports = {
       },
       github: 'https://github.com/varletjs/varlet-vue2',
       darkMode: true,
-      playground: 'http://www.baidu.com'
     },
     clipboard: {
       'zh-CN': '代码已复制到剪切板',
