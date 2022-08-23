@@ -20,9 +20,9 @@ packages/varlet-vue2-cli/site/pc/routes.ts
 packages/varlet-vue2-cli/site/site.config.json
 packages/varlet-vue2-cli/site/*.site.config.json
 
-packages/varlet-vue2-ui/site
-packages/varlet-vue2-ui/lib
-packages/varlet-vue2-ui/es
-packages/varlet-vue2-ui/umd
-packages/varlet-vue2-ui/coverage
-packages/varlet-vue2-ui/highlight
+hui-plus/site
+hui-plus/lib
+hui-plus/es
+hui-plus/umd
+hui-plus/coverage
+hui-plus/highlight
