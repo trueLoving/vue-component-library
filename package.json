@@ -3,11 +3,7 @@
   "version": "0.1.2",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "bootstrap": "pnpm install && node scripts/bootstrap.mjs",
-    "dev": "varlet-vue2-cli dev",
-    "lint": "varlet-vue2-cli lint",
-    "changelog": "varlet-vue2-cli changelog",
-    "release": "node scripts/publish.mjs && varlet-vue2-cli release"
+    "lint": "varlet-vue2-cli lint"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged --allow-empty --concurrent false",

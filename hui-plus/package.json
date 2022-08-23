@@ -1,0 +1,62 @@
+{
+  "name": "@hui-plus",
+  "version": "0.0.0",
+  "description": "TODO!!!",
+  "module": "es/index.js",
+  "main": "lib/index.js",
+  "keywords": [
+    "Vue2",
+    "UI"
+  ],
+  "files": [
+    "lib",
+    "es",
+    "umd",
+    "highlight",
+    "types",
+    "CHANGELOG.md"
+  ],
+  "author": "trueLoving@https://github.com/trueLoving",
+  "license": "MIT",
+  "scripts": {
+    "dev": "varlet-vue2-cli dev",
+    "build": "varlet-vue2-cli build",
+    "preview": "varlet-vue2-cli preview",
+    "compile": "varlet-vue2-cli compile",
+    "test": "varlet-vue2-cli jest",
+    "test:watch": "varlet-vue2-cli jest -w",
+    "test:watchAll": "varlet-vue2-cli jest -wa"
+  },
+  "peerDependencies": {
+    "vue": ">= 2.6.0"
+  },
+  "sideEffects": [
+    "es/**/style/*",
+    "lib/**/style/*",
+    "*.css",
+    "*.less"
+  ],
+  "dependencies": {
+    "@varlet/icons": "latest",
+    "dayjs": "^1.10.4",
+    "decimal.js": "^10.2.1",
+    "@babel/runtime": "^7.16.0",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1"
+  },
+  "devDependencies": {
+    "@varlet-vue2/cli": "workspace:*",
+    "@varlet/touch-emulator": "latest",
+    "@vue/test-utils": "^1.2.2",
+    "@babel/runtime": "^7.16.0",
+    "vue-template-compiler": "^2.6.14",
+    "vue": "^2.6.14",
+    "live-server": "^1.2.1",
+    "lodash-es": "^4.17.21",
+    "clipboard": "^2.0.8",
+    "vue-router": "^3.5.3"
+  },
+  "browserslist": [
+    "Chrome >= 51",
+    "iOS >= 10"
+  ]
+}
